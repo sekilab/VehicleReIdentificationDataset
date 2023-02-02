@@ -1,6 +1,6 @@
 # Vehicle Re-Identification (ReID) Dataset
 
-<p align="center"><img src="media/sample_transparent.png" width="60%" height="auto"></p>
+<p align="center"><img src="media/sample_transparent.png" width="90%" height="auto"></p>
 
 Sample images from the CARLA ReID dataset, resized to the same dimension for visualization. Figure on the left shows the variation of vehicle models and colors in the CARLA ReID dataset. CARLA ReID dataset contains four classes of vehicles such as car, truck, motorcycle, and bicycle. Figure on the right shows the camera angle variation for observing the same vehicle. Each vehicle is observed by 85 cameras located at varying distances surrounding the target vehicle.
 
