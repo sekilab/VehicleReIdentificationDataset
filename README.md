@@ -15,6 +15,14 @@ The download URL of the VeRi dataset is shown here. Please note that training, g
 
 ## Training example
 
+- Please check `training_vehicle_reid.ipynb` Jupyter notebook to train the model or understand the training process, in general.
+
+- Make sure that your environment is properly configured. For reference, I have provided my conda environment `mdx_reid` as a reference. Please use it as a reference only to check package versions. You may install packages using the following command:
+
+```bash
+conda env create -f mdx_reid.yml
+```
+
 ## Citations
 If you find our dataset useful and use it in your research, please give us a star :star: and cite the following article:
 
