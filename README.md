@@ -27,6 +27,17 @@ conda env create -f mdx_reid.yml
 If you find our dataset useful and use it in your research, please give us a star :star: and cite the following article:
 
 ```csv
+@INPROCEEDINGS{10020814,
+  author={Kumar, Ashutosh and Kashiyama, Takehiro and Maeda, Hiroya and Zhang, Fan and Omata, Hiroshi and Sekimoto, Yoshihide},
+  booktitle={2022 IEEE International Conference on Big Data (Big Data)}, 
+  title={Vehicle re-identification and trajectory reconstruction using multiple moving cameras in the CARLA driving simulator}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1858-1865},
+  doi={10.1109/BigData55660.2022.10020814}}
+
+
 @article{kumar2022vehicle,
   title={Vehicle re-identification and trajectory reconstruction using multiple moving cameras in the CARLA driving simulator},
   author={Kumar, Ashutosh and Kashiyama, Takehiro and Maeda, Hiroya and Zhang, Fan and Omata, Hiroshi and Sekimoto, Yoshihide},
