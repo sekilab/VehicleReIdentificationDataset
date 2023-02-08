@@ -13,15 +13,30 @@ The download URL of the VeRi dataset is shown here. Please note that training, g
 
 [Download VeRi dataset (CARLA)](https://www.dropbox.com/s/cg1etrs22y2xb62/VeRi_CARLA_dataset.zip?dl=0)
 
-## Training example
+## Training example and Installation
 
 - Please check `training_vehicle_reid.ipynb` Jupyter notebook to train the model or understand the training process, in general.
 
-- Make sure that your environment is properly configured. For reference, I have provided my conda environment `mdx_reid` as a reference. Please use it as a reference only to check package versions. You may install packages using the following command:
+### Installation
+
+- Make sure that your environment is properly configured. For reference, I have provided my conda environment `carla_reid` as a reference. Please use it as a reference to check package versions. You may install packages using the following command:
 
 ```bash
-conda env create -f mdx_reid.yml
+conda create -n carla_reid python=3.9 pip pandas  -y
 ```
+- The above command, however, will not install `torchreid`. Also, pip package does not support latest build of `torchreid` and it needs to built from the source. I have provided bash script to simplify this task
+
+- First of all, activate the environment by executing the following command
+
+```bash
+conda activate carla_reid
+```
+- Make sure that the environment is activated and you are in the root directory of this repository. It should show `(carla_red)` on the left of your username in the terminal. Run the following command:
+
+```bash
+bash install_torchreid.sh
+```
+- The above command will install `torchreid 1.4.0`. You are all set to run the Jupyter notebook.
 
 ## Citations
 If you find our dataset useful and use it in your research, please give us a star :star: and cite the following article:
@@ -36,8 +51,9 @@ If you find our dataset useful and use it in your research, please give us a sta
   number={},
   pages={1858-1865},
   doi={10.1109/BigData55660.2022.10020814}}
+```
 
-
+```csv
 @article{kumar2022vehicle,
   title={Vehicle re-identification and trajectory reconstruction using multiple moving cameras in the CARLA driving simulator},
   author={Kumar, Ashutosh and Kashiyama, Takehiro and Maeda, Hiroya and Zhang, Fan and Omata, Hiroshi and Sekimoto, Yoshihide},

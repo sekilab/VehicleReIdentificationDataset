@@ -8,6 +8,8 @@ __pycache__/
 *.pth
 log/
 log/*
+dataset/*
+dataset/
 
 # C extensions
 *.so

@@ -1,4 +1,4 @@
-name: mdx_reid
+name: carla_reid
 channels:
   - pytorch
   - defaults
@@ -193,4 +193,4 @@ dependencies:
     - yapf==0.32.0
     - youtube-dl==2020.12.2
     - zipp==3.8.0
-prefix: /home/mdxuser/anaconda3/envs/mdx_reid
+prefix: /home/ubuntu/anaconda3/envs/carla_reid
