@@ -19,24 +19,24 @@ The download URL of the VeRi dataset is shown here. Please note that training, g
 
 ### Installation
 
-- Make sure that your environment is properly configured. For reference, I have provided my conda environment `carla_reid` as a reference. Please use it as a reference to check package versions. You may install packages using the following command:
+- Make sure that you have conda installed. Let's create a new virtual environment `carla_reid` with Python verison 3.7 by executing the following command:
 
 ```bash
-conda create -n carla_reid python=3.9 pip pandas  -y
+conda create -n carla_reid python=3.7 pip pandas  -y
 ```
 - The above command, however, will not install `torchreid`. Also, pip package does not support latest build of `torchreid` and it needs to built from the source. I have provided bash script to simplify this task
 
-- First of all, activate the environment by executing the following command
+- First of all, activate the environment created before by executing the following command:
 
 ```bash
 conda activate carla_reid
 ```
-- Make sure that the environment is activated and you are in the root directory of this repository. It should show `(carla_red)` on the left of your username in the terminal. Run the following command:
+- Make sure that the environment is activated and you are in the root directory of this repository. It should show `(carla_reid)` on the left of your username in the terminal. Run the following command:
 
 ```bash
-bash install_torchreid.sh
+bash install_packages_reid.sh
 ```
-- The above command will install `torchreid 1.4.0`. You are all set to run the Jupyter notebook.
+- The above command will install `torchreid 1.4.0` along with dependencies such as `torch`, `torchvision`, etc.. You are all set to run the Jupyter notebook.
 
 ## Citations
 If you find our dataset useful and use it in your research, please give us a star :star: and cite the following article:
