@@ -52,7 +52,6 @@ If you find our dataset useful and use it in your research, please give us a sta
   pages={1858-1865},
   doi={10.1109/BigData55660.2022.10020814}}
 ```
-
 ```csv
 @article{kumar2022vehicle,
   title={Vehicle re-identification and trajectory reconstruction using multiple moving cameras in the CARLA driving simulator},
