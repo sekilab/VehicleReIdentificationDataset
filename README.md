@@ -36,7 +36,7 @@ conda activate carla_reid
 ```bash
 bash install_packages_reid.sh
 ```
-- The above command will install `torchreid 1.4.0` along with dependencies such as `torch`, `torchvision`, etc.. You are all set to run the Jupyter notebook.
+- The above command will install `torchreid 1.4.0` along with dependencies such as `torch`, `torchvision`, etc. You are all set to run the Jupyter notebook.
 
 ## Citations
 If you find our dataset useful and use it in your research, please give us a star :star: and cite the following article:
